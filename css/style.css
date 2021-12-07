@@ -1,6 +1,13 @@
-body
+h1
 {
-text-align: center;
-font-family: Arial;
-color: deepskyblue;
+    text-align: center;
+    font-family: Arial;
+    color: deepskyblue;
+}
+
+p
+{
+    text-align: center;
+    font-family: Helvetica;
+    color: deeppink;
 }
