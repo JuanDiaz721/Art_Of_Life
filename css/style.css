@@ -22,9 +22,9 @@ body
 
 #Cabecera
 {
-    background: #9e355b;
-    box-shadow: 0px 2px 20px 0px rgba(0,0,0, 0.30) ;
-    color: white;
+    background: #f70505;
+    box-shadow: 0px 2px 20px 0px rgba(252, 81, 1, 0.973) ;
+    color: rgb(7, 7, 7);
     margin: 0%;
     padding: 0.5%;
     font-weight: bold;
