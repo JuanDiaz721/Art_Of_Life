@@ -19,3 +19,27 @@ body
 {
     font-size: 20px;
 }
+
+#Cabecera
+{
+    background: #9e355b;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0, 0.30) ;
+    color: white;
+    margin: 0%;
+    padding: 0.5%;
+    font-weight: bold;
+    text-align: start;
+}
+
+#Cabecera #tagline
+{
+    font-weight: normal;
+    font-size: 0.8em;
+    padding: 1em;
+}
+
+
+#post
+{
+    padding: 1em;
+}
