@@ -1,13 +1,21 @@
-h1
+body
 {
     text-align: center;
     font-family: Arial;
     color: deepskyblue;
 }
 
-p
+#container
 {
+    width: 70%;
+    padding: 1em;
     text-align: center;
-    font-family: Helvetica;
-    color: deeppink;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#container h1
+{
+    font-size: 20px;
 }
