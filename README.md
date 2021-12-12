@@ -1,4 +1,4 @@
-# Art Of Life 👽
+# Art of Life 👽
 
 
 >Este blog es creado con el fin de incentivar en la sociedad un sentido de pertenencia cultural, humanamente hablando, dejando a un lado aspectos como la religión, sexo, nacionalidad etc.. 
