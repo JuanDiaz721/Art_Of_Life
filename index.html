@@ -13,28 +13,70 @@
         <div id="container">
                     <div id="Cabecera">
                         <img id="logo" src="pics/david.png"/>
-                        ArtWorld
-                        <span id="tagline">La escencia de la vida</span>
+                        CultureWorld
+                        <span id="tagline">Life Essentials</span>
                     </div>
-
                     <div id="post" >
                         <h1>Culture is the new influencer</h1>
-                        <p>En esta pagina web podremos visualizar poemas, pinturas, subir NFTs, la gente podrá recomendar libros,
-                        publicar libros, sonetos y canciones. Es el mundo de la cultura.
+                        <hr id="line" color="deepskyblue"/>
+                        <p>Bienvenido terrícola, aconsejo que te prepares para lo que veras a continuación,
+                        ya que acabas de entrar a la pagina web definitiva de la cultura humana. Quiero que disfrutes
+                        del viaje, lo sientas, que rías, llores, te enojes, te cuestiones, quiero que abras tu cajón mental 
+                        y tengas la disposición y el interés para asimilar todas las maravillas que el ser humano ha creado,
+                        inventado e inmortalizado. 
                         </p>
                         <p>
                         Este blog es creado por la gente y para la gente, para no olvidar nuestros artistas, nuestros poetas, nuestro sentido de vida, 
                         aquello que hace que nuestra sangre hierva solo con leer cuatro parrafos, escuchar el coro de una canción, u observar el
                         trazo aparentemente perfecto a nuestra vista. 
                         </p>
-                        <p>
-                        No esperes mas para alimentar tu cerebro
-                        </p>
+
+                        <p id="dynamic">No esperes mas para alimentar tu cerebro</p>
+                        <button onclick="changeContent();" id="caja"> Do it </button>
                     </div>
+
+                    <div id="step1">
+                        <p id="steps">Solo sigue los siguientes pasos:</p>
+                        <ul>
+                            <li>Regístrate</li>
+                            <li onclick="changeContent();" id="joke">Cancela 1M de dólares</li>
+                            <li>Comienza esta asombrosa aventura</li>
+                        </ul>
+                    </div>
+
                     <div id=footer>
                         Cultura, arte, música, poesía, NFTs
                     </div>
+
+                    <div id="links">
+                        <p style="float :left">
+                        <a href="#">Home</a> |
+                        <a href="#">Contact Us</a> |
+                        <a href="#">Terms of Services</a> |
+                        <a href="#">Privacy Policy</a>
+                        </p>
+                    </div>
         </div>
+        <div id="container2">
+                    <div>
+                        <img id="logo2" src="pics/david.png" onclick="changeImage();"/>
+                    </div>
+        </div>
+
+        <script type="text/javascript">
+       
+            function changeContent(){
+                document.getElementById("dynamic").innerHTML = "Sigue el camino del Übermensch";               
+                document.getElementById("joke").innerHTML = "Consigname en Nequi, please.";
+            }
+            function changeImage(){
+                document.getElementById("logo2").src = "pics/buchanas.png";
+            }
+            
+
+            
+        </script>
     </body>
+    
 
 </html>

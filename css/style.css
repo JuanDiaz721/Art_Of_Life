@@ -1,6 +1,11 @@
 body
 {
-    background: rgb(10, 10, 43);
+    background-color: rgb(10, 10, 43);
+    background-image: url("/pics/david2.png");
+    background-blend-mode:luminosity;
+    background-position: right 90px;
+    background-repeat:no-repeat;   
+    background-attachment:local;
     text-align: center;
     font-family: Arial;
     font-size: 16px;
@@ -11,12 +16,12 @@ body
 
 #container
 {
-    width: 70%;
-    padding: 1em;
+    width: 80%;
+    padding: 2em;
     text-align: center;
-    border: 1px solid #ddd;
-    margin: 0 auto;
-    border-radius: 10px;
+    border: 1px solid;
+    margin: 0.7%auto;
+    border-radius: 15px;
     border-color: rgba(252, 81, 1);
 }
 
@@ -69,4 +74,42 @@ body
     padding: 0.2em;
     border-radius: 0.4em;
     box-shadow: 0px 2px 20px 0px rgba(252, 81, 1, 0.973) ;   
+}
+#caja
+{
+    color: deepskyblue;
+    border-color: deepskyblue;
+    background-color: rgb(10, 10, 43);
+    border-radius: 0.5em;
+    box-shadow: 0px 2px 15px 0px rgba(252, 81, 1, 0.973) ;
+    width: 10%;
+}
+
+
+#tagline
+{
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#links
+{
+    text-align:start;
+    padding: 1%;
+    margin: 0%;
+}
+
+#line   
+{
+    width: 40%;
+}
+
+#steps
+{
+    font-style: oblique;
+}
+
+#step1
+{
+    text-align: left;
 }
