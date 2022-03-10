@@ -87,7 +87,8 @@ body
 }
 
 #caja:active{
-    color: rgb(233, 93, 0);
+    color: rgb(10, 10, 61);
+    background: rgb(3, 200, 214);
 }
 
 
