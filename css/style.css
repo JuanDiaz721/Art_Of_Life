@@ -86,6 +86,10 @@ body
     cursor: pointer;
 }
 
+#subtitle:hover{
+    color: #f70505;
+}
+
 #caja:active{
     color: rgb(10, 10, 61);
     background: rgb(3, 200, 214);
