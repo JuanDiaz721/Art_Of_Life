@@ -86,6 +86,10 @@ body
     cursor: pointer;
 }
 
+#caja:active{
+    color: #f00000;
+}
+
 
 #tagline
 {
